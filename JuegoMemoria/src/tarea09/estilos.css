@@ -1,0 +1,105 @@
+
+.card {
+    -fx-background-image: url('assets/interfaz/reversoCartaDibujo.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size:192 135;/*Ancho x Alto*/
+    -fx-cursor:hand;
+}
+.card:hover {
+    -fx-background-size:195 138;/*Ancho x Alto*/
+}
+
+
+.body{
+    -fx-background-image: url('assets/interfaz/fondoApp.jpg');
+    -fx-background-size: 1500px 950px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.botonSalirJuego{
+    -fx-background-color: #DCDCDC;
+    -fx-cursor:hand;
+    -fx-background-radius: 50em;
+    -fx-min-width: 130px;
+    -fx-min-height: 130px;
+    -fx-max-width: 130px;
+    -fx-max-height: 130px;
+    -fx-text-fill: #807e7e;
+    -fx-effect: dropshadow(one-pass-box, black, 44, 0.0, 2, 0);
+}
+.botonSalirJuego:hover{
+     -fx-translate-x: 3px; 
+     -fx-translate-y: 3px; 
+}
+.botonComenzarDeNuevo:pressed, .botonComenzarDeNuevo:default:hover:pressed,
+.botonSalirJuego:pressed, .botonSalirJuego:default:hover:pressed
+{
+   -fx-text-fill: transparent;
+}
+
+.botonComenzarDeNuevo{
+    -fx-background-color: #DCDCDC;
+    -fx-cursor:hand;
+    -fx-background-radius: 50em;
+    -fx-min-width: 130px;
+    -fx-min-height: 130px;
+    -fx-max-width: 130px;
+    -fx-max-height: 130px;
+    -fx-text-fill: #807e7e;
+    -fx-effect: dropshadow(one-pass-box, black, 44, 0.0, 2, 0);
+}
+.botonComenzarDeNuevo:hover{
+     -fx-translate-x: -3px; 
+     -fx-translate-y: -3px; 
+}
+
+
+
+.etiquetaTipoJuego,
+.numIntentos,
+.etiquetasTiempoYestado,
+.estadoTiempo{
+    -fx-font-family: Arial;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+
+.etiquetaTipoJuego:hover{
+    -fx-font-size: 27px;
+}
+.numIntentos:hover,
+.estadoTiempo:hover{
+     -fx-text-fill:red;
+}
+
+.fondo-carta-mostrada{
+    -fx-background-color:white;
+}
+
+.fondo-transparente{
+    -fx-background-color:transparent;
+}
+
+.gridPaneFinalPartida{
+    -fx-background-image: url('assets/interfaz/victoria.jpg');
+    -fx-background-size: 786px 560px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.gridPane{
+    -fx-background-color: transparent;
+    -fx-pref-width: 988px;
+    -fx-pref-height: 842px;
+}
+.aplicarOpacidad{
+    -fx-opacity: 1.0;
+}
+
+
+
